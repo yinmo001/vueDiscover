@@ -1,0 +1,24 @@
+.nav-footer {
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 0 0 1px #e1e1e1;
+}
+.nav-footer ul {
+  height: 50px;
+  padding-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-footer ul li {
+  text-align: center;
+  width: 25%;
+}
+.nav-footer ul li a {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 12px;
+}

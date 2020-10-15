@@ -1,7 +1,11 @@
 import React,{Component} from 'react';
 // 只在当前组件生效吗？全局的，样式表没有作用域
-import './style.css'
+// import cssObj from './style.css'
+import cssObj from './style.module.css'
+import cssObj1 from './user.module.css'
+import cssObj2 from './common.module.css'
 import BItem from './bitem'
+console.log(cssObj2)
 
 class App extends Component{
   constructor(props){
@@ -37,12 +41,12 @@ class App extends Component{
         <label htmlFor="input">技能</label>
         <input 
         id="input" 
-        className="input" 
+        className={cssObj.title}
         value={this.state.inputValue} 
         onChange={this.inputChange.bind(this)}
         ref={input=>this.input=input}
         />
-        <button onClick={this.addList.bind(this)}>添加</button>
+        <button className={cssObj1.title,cssObj2.input} onClick={this.addList.bind(this)}>添加</button>
         <ul ref={ul=>this.ul=ul}>
           {
             this.state.list.map((item,index) => {

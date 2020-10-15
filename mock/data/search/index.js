@@ -1,0 +1,29 @@
+module.exports = {
+  hasMore:true,
+  data:[
+    {
+      id:Math.random().toString().slice(2),
+      title:"孕期滋补",
+      img:"https://img20.360buyimg.com/pop/s590x470_jfs/t1/123015/16/8273/75730/5f21399dE3a52e29a/98147050781f7fc7.jpg.webp",
+      price:"¥199"
+    },
+    {
+      id:Math.random().toString().slice(2),
+      title:"电纸书",
+      img:"https://imgcps.jd.com/ling/63799883661/55S157q45Lmm6LSt55yB5peg5b-n/5L2g5YC85b6X5YWz5rOo/p-5bd8253082acdd181d02fa64/6d0dc11e/590x470.jpg",
+      price:"¥899"
+    },
+    {
+      id:Math.random().toString().slice(2),
+      title:"孕斑布卷纸",
+      img:"https://img20.360buyimg.com/da/s590x470_jfs/t1/119243/27/14122/82125/5f2a6aa4E96ce9d42/2069d14935793841.jpg.webp",
+      price:"¥19.9"
+    },
+    {
+      id:Math.random().toString().slice(2),
+      title:"抽纸钜惠",
+      img:"https://imgcps.jd.com/ling/100003475106/5oq957q46ZKc5oOg/54uC5qyi5YaN57ut/p-5bd8253082acdd181d02fa5f/d3e4cd4f/590x470.jpg",
+      price:"¥29.9"
+    }
+  ]
+}
